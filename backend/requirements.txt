@@ -1,0 +1,17 @@
+# backend/requirements.txt
+
+# Core
+flask==3.1.1
+flask-socketio==5.5.1
+eventlet==0.40.0
+
+# YOLOv8
+ultralytics==8.3.145
+
+# Image I/O & array math
+opencv-python==4.11.0.86
+numpy==1.24.3
+
+# SORT dependencies (pure Python)
+filterpy==1.4.5
+scipy==1.13.1
