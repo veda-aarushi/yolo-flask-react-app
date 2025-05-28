@@ -100,6 +100,11 @@ yolo-flask-react-app/
 
 ---
 
+## 📦 Dockerfiles
+
+* **backend/Dockerfile**: Builds the Flask-SocketIO server. It starts from a slim Python image, installs build tools (CMake, compilers), copies and installs Python dependencies, and runs `app.py` on port 5000.
+* **frontend/Dockerfile**: Uses a Node.js Alpine image, installs npm dependencies, copies source files, runs `npm run build`, and serves the static React build on port 3000 using the `serve` package.
+
 ## 🤝 Contributing
 
 1. Fork this repository
